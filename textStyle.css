@@ -1,0 +1,48 @@
+p{ 
+    color: #3c5556;
+    font-family: 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+    font-size: 0.8em;
+}
+
+h1{ 
+    font-size: 1.3em;
+    color:#3c5556;
+    font-family: fantasy;
+    text-shadow: 4px 6px 8px rgba(0,0,0,0.3); 
+}
+
+h2{ 
+    font-family: fantasy;
+    font-size: medium;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.3);
+}
+
+h3{ 
+    color: #e09789; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+blockquote{
+    color: #e09789;
+    font-size: 0.8em;
+}
+
+figcaption{
+    color: #e09789;
+    font-size: 0.6em;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Tablets and Laptops */
+@media(min-width: 426px) { 
+    
+    h2{ 
+        font-family: fantasy;
+        font-size: large;
+        text-shadow: 2px 3px 4px rgba(0,0,0,0.3);
+    }
+    
+}
