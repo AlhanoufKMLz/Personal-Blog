@@ -1,0 +1,18 @@
+.icon{ 
+    width: 1.4em; 
+}
+
+.icon:hover{ 
+    width: 2em;
+}
+
+.avatar{
+    width: 3em; 
+    height: 3em ;
+}
+
+.image{ 
+    width: 10em;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,100 @@
+@import "extra.css";
+@import "textStyle.css";
+@import "imageStyle.css";
+
+.container{ 
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7fr 0.5fr;
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+}
+
+.header{ 
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.content{ 
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{ 
+    display: flex;
+    gap: 0.7em;
+    opacity: 0.7;
+    width: 20em;
+    height: 10em;
+    border-radius: 0 30% 10% 0;
+}
+
+.card:hover{ 
+    opacity: 1;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.3), 0 4px 6px 0 rgba(0,0,0,0.19); 
+}
+
+.cardInfo{
+    padding: 0.1em;
+}
+
+.footer{ 
+    grid-area: footer;
+    background-color: #f5d4c3; 
+    padding: 10px; 
+}
+
+.cardImg{ 
+    height: 100%;
+}
+
+#one{ 
+    background-color: #e09789;
+    color: #f5d4c3;
+}
+
+#two{ 
+    background-color: #c8dbd7;
+    color: #3c5556;
+}
+
+#three{ 
+    background-color: #f5d4c3;
+    color: #e09789;
+}
+
+
+/* Tablets and Laptops */
+@media(min-width: 426px) { 
+    .container{ 
+        grid-template-rows: 1fr 8fr 0.5fr;
+    }
+
+    .content{ 
+        grid-area: content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .card{ 
+        width: 22em;
+        height: 10em;
+    }
+    .cardInfo{
+        padding: 0.5em;
+    }
+}

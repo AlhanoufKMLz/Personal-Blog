@@ -1,0 +1,33 @@
+body{ 
+    background-color: #f6efe7;
+}
+
+.button{ 
+    text-decoration: none;
+    background-color: #3c5556;
+    color: #f6efe7;
+    border: 1px solid #3c5556;
+    border-radius: 10% 30%;
+    font-size: 0.5em;
+    width: fit-content;
+    height: fit-content;
+    padding: 1% 2% 1% 2%;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.3), 0 4px 6px 0 rgba(0,0,0,0.19); 
+}
+
+.button:hover{ 
+    background-color: #c8dbd7;
+    color: #3c5556;
+    border: 1px solid #3c5556;
+    box-shadow: 0 0 0 0, 0 0 0 0; 
+}
+
+a{ 
+    color: #3c5556;
+}
+
+ul{ 
+    list-style: circle;
+    color: #3c5556;
+    font-size: 0.8em;
+}
